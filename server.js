@@ -17,7 +17,7 @@ app.use(express.json());
 
 // Configure CORS
 app.use(cors({
-  origin: ['http://localhost:5000', 'http://localhost:5173'],
+  origin: ['http://localhost:5000', 'http://localhost:5173',"https://airbnb-clone-be-l1y1.onrender.com","https://airbnb-clone-fe.netlify.app/"],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
